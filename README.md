@@ -13,7 +13,7 @@ $ cf push minecraft-app
 ### run chisel client
 
 ```bash
-$ ./chisel-bin/chisel_linux_amd64 client -v --keep alive 3s http://minecraft-app.mybluemix.net 25565:127.0.0.1:25565
+$ ./chisel-bin/chisel_linux_amd64 client -v --keepalive 3s http://minecraft-app.mybluemix.net 25565:127.0.0.1:25565
 
 2015/05/10 14:58:43 client: Connecting to ws://minecraft-app.mybluemix.net:80
 2015/05/10 14:58:43 client: 127.0.0.1:25565#1: Enabled
