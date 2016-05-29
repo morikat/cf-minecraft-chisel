@@ -1,6 +1,7 @@
 ---
 applications:
 - memory: 512M
+  #buildpack: https://github.com/morikat/heroku-buildpack-oracle-java#minecraft-debug
   buildpack: https://github.com/morikat/heroku-buildpack-oracle-java#minecraft
   command: './start_minecraft.sh; ./chisel server --port $PORT --proxy http://www.google.co.jp'
 #  command: './.jdk/bin/java -jar ./minecraft.jar & && ./chisel server --port $PORT --proxy http://www.google.co.jp &'
